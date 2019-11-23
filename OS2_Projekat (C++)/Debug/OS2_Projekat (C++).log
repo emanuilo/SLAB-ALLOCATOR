@@ -1,0 +1,27 @@
+﻿Build started 1/11/2017 2:20:49 PM.
+     1>Project "E:\Faks\III\OS 2\projekat\OS2_Projekat (C++)\OS2_Projekat (C++)\OS2_Projekat (C++).vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt slab.cpp
+         slab.cpp
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\buddy.h(4): warning C4005: 'BLOCK_SIZE' : macro redefinition
+                 e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.h(7) : see previous definition of 'BLOCK_SIZE'
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(23): warning C4244: 'initializing' : conversion from 'double' to 'size_t', possible loss of data
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(50): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(72): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(154): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(310): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\faks\iii\os 2\projekat\os2_projekat (c++)\os2_projekat (c++)\slab.cpp(311): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Faks\III\OS 2\projekat\OS2_Projekat (C++)\Debug\OS2_Projekat (C++).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Faks\III\OS 2\projekat\OS2_Projekat (C++)\Debug\OS2_Projekat (C++).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Faks\III\OS 2\projekat\OS2_Projekat (C++)\Debug\OS2_Projekat (C++).lib" /MACHINE:X86 Debug\main.obj
+         Debug\test.obj
+         Debug\buddy.obj
+         Debug\slab.obj
+         OS2_Projekat (C++).vcxproj -> E:\Faks\III\OS 2\projekat\OS2_Projekat (C++)\Debug\OS2_Projekat (C++).exe
+     1>Done Building Project "E:\Faks\III\OS 2\projekat\OS2_Projekat (C++)\OS2_Projekat (C++)\OS2_Projekat (C++).vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72
